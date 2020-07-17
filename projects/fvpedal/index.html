@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Fvpedal :: Prince Jacquet — My personal projects &amp; stuff</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Summary A programmable guitar/bass effects pedal, based on the excellent Spin semi FV-1 DSP chip.
+I was just starting playing bass, and dubstep was all the rage in 2013, and I wanted a way to achieve the bass growl/vibrato effect with a real bass and an effects pedal.
+So I looked around and found the FV-1 chip, and decided to try myself at making a multi-effect guitar/bass pedal.
+Specs  SpinSemi FV-1 &amp;ldquo;analog&amp;rdquo; DSP chip Double program EEPROMs Attiny13 to switch DSP programs and toggle banks Rotary switch to control Attiny13 LM358 input stage with gain control LM358 output stage with volume control  Schematic ZIP"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://princejacquet.github.io/projects/fvpedal/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://princejacquet.github.io/assets/style.css">
+
+
+<link rel="stylesheet" href="https://princejacquet.github.io/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://princejacquet.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://princejacquet.github.io/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fvpedal"/>
+<meta name="twitter:description" content="Summary A programmable guitar/bass effects pedal, based on the excellent Spin semi FV-1 DSP chip.
+I was just starting playing bass, and dubstep was all the rage in 2013, and I wanted a way to achieve the bass growl/vibrato effect with a real bass and an effects pedal.
+So I looked around and found the FV-1 chip, and decided to try myself at making a multi-effect guitar/bass pedal.
+Specs  SpinSemi FV-1 &ldquo;analog&rdquo; DSP chip Double program EEPROMs Attiny13 to switch DSP programs and toggle banks Rotary switch to control Attiny13 LM358 input stage with gain control LM358 output stage with volume control  Schematic ZIP"/>
+
+
+
+<meta property="og:title" content="Fvpedal" />
+<meta property="og:description" content="Summary A programmable guitar/bass effects pedal, based on the excellent Spin semi FV-1 DSP chip.
+I was just starting playing bass, and dubstep was all the rage in 2013, and I wanted a way to achieve the bass growl/vibrato effect with a real bass and an effects pedal.
+So I looked around and found the FV-1 chip, and decided to try myself at making a multi-effect guitar/bass pedal.
+Specs  SpinSemi FV-1 &ldquo;analog&rdquo; DSP chip Double program EEPROMs Attiny13 to switch DSP programs and toggle banks Rotary switch to control Attiny13 LM358 input stage with gain control LM358 output stage with volume control  Schematic ZIP" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://princejacquet.github.io/projects/fvpedal/" />
+<meta property="og:site_name" content="Prince Jacquet" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Prince Jacquet ♕</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects/list">Projects</a></li>
+        
+      
+        
+          <li><a href="/root">Roots</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/projects/list">Projects</a></li>
+      
+    
+      
+        <li><a href="/root">Roots</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="https://princejacquet.github.io/projects/fvpedal/">Fvpedal</a></h2>
+    <div class="post-meta">
+      
+      
+      
+    </div>
+
+    
+
+    
+      
+        <img src="https://princejacquet.github.io/projects/fvpedal/img/mech/fv_pedal_6.jpg" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      <h2 id="summary">Summary</h2>
+<p>A programmable guitar/bass effects pedal, based on the excellent <a href="http://www.spinsemi.com/products.html">Spin semi FV-1</a> DSP chip.</p>
+<p>I was just starting playing bass, and dubstep was all the rage in 2013, and I wanted a way to achieve the bass growl/vibrato effect with a real bass and an effects pedal.</p>
+<p>So I looked around and found the FV-1 chip, and decided to try myself at making a multi-effect guitar/bass pedal.</p>
+<h2 id="specs">Specs</h2>
+<ul>
+<li>SpinSemi FV-1 &ldquo;analog&rdquo; DSP chip</li>
+<li>Double program EEPROMs</li>
+<li>Attiny13 to switch DSP programs and toggle banks</li>
+<li>Rotary switch to control Attiny13</li>
+<li>LM358 input stage with gain control</li>
+<li>LM358 output stage with volume control</li>
+</ul>
+<p><a href="fv_schematic.zip">Schematic ZIP</a><br>
+<a href="fv_proteus.zip">Proteus project ZIP</a></p>
+<h2 id="design">Design</h2>
+<p>I had used Elecrow for the PCBs of my previous project an was pretty satisfied of the result, so when they had an offer, I jumped on it. I don&rsquo;t remember the price, but at the time it was substantially lower than the other fab houses.<br>
+I just had to design in less than 50x50mm.</p>
+<p>The teachers at my tech school were using <a href="https://www.labcenter.com/pcb/">Proteus 7</a> (I think? or an early v8 maybe) and had an unlimited license lying around. Around the same time, I was looking for another design package, I had a few usability issues with Eagle, and had tried KiCad a few years ago and it was just awful at the time. So I decided to try this project with Proteus.</p>
+<p>I had just bought my soldering (hot air+iron) station, and was pretty happy to use it ! The PCB turned out pretty nice, except for a mirrored 3V LDO (fixed by using another part).</p>
+<p><img src="img/pcb/fv_pcb_passives.jpg" alt="FVpedal PCB" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/pcb/fv_pcb_front.jpg" alt="FVpedal assembled PCB 1" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/pcb/fv_pcb_back.jpg" alt="FVpedal assembled PCB 2" class="center" style="border-radius: 8px;" /></p>
+<p>With a bonus picture of my workshop :)
+<img src="img/test/fv_workshop.jpg" alt="Workshop 2014" class="center" style="border-radius: 8px;" /></p>
+<p>The program selector was a rotary switch with different resistor values, making it a <a href="https://knowyourmeme.com/memes/well-that-sounds-like-slavery-with-extra-steps">potentiometer-with-extra-steps</a>, and was read by the attiny&rsquo;s ADC. It worked ok during my tests with an Arduino pro mini:
+<img src="img/test/fv_pcb_rotary.jpg" alt="Rotary PCB" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/test/fv_test_rotary.jpg" alt="rotary PCB test" class="center" style="border-radius: 8px;" /></p>
+<p>I wanted to have an expression pedal on the cheap, so buying an off the shelf enclosure was out of the question.</p>
+<p>I figured I&rsquo;d go with a simple hinge, with a magnet on the swinging end, and an analog hall sensor + signal conditioning circuit on the chassis. I never got that far, as the PCB had a few show-stopping mistakes:</p>
+<ul>
+<li>To save space I did not follow the layout considerations for the FV1 chip to the letter -&gt; the result: way too much static noise</li>
+<li>Also, I selected the attiny&rsquo;s gpios for an easier layout, and one was pulling the reset line high -&gt; To be able to program the chip, I had to remove a resistor, program, and solder it back on. Pretty cumbersome if you ask me.</li>
+</ul>
+<p>Because of these issues and the fact that I hadn&rsquo;t figured how to load custom programs from the SDK to the EEPROMs, I moved on and finally decided to solder and program the <a href="../guitarfm">GuitarFM</a> v1 PCB and components I had laying around for close to a year.</p>
+<p>A simple reverb test (default programs):
+
+    <video width="100%" height="500" controls>
+        <source src="vid/fv_reverb.mp4">
+    </video>
+</p>
+<h2 id="enclosure-build">Enclosure build</h2>
+<p>I had built the enclosure before receiving the pcbs.  The enclosure is made out of wood and aluminium.</p>
+<p><img src="img/mech/fv_pedal_1.jpg" alt="Enclosure build pic 1" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mech/fv_pedal_2.jpg" alt="Enclosure build pic 2" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mech/fv_pedal_3.jpg" alt="Enclosure build pic 3" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mech/fv_pedal_4.jpg" alt="Enclosure build pic 4" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mech/fv_pedal_5.jpg" alt="Enclosure build pic 5" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mech/fv_pedal_6.jpg" alt="Enclosure build pic 6" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mech/fv_pedal_7.jpg" alt="Enclosure build pic 7" class="center" style="border-radius: 8px;" /></p>
+<h2 id="project-future">Project future</h2>
+<p>I guess, if I revisit this project, it&rsquo;ll be a mashup of this and the GuitarFM project, i.e. add reverb/tube distortion to the transmitter.
+I still want to create a multi-effect programmable pedal, but I think I&rsquo;ll go with a either a cortex-M4 or an Analog devices DSP when I get around to it.</p>
+
+    </div>
+    
+
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Prince Jacquet ♕</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://princejacquet.github.io/assets/main.js"></script>
+<script src="https://princejacquet.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

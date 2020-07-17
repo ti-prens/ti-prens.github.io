@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Ledwatch :: Prince Jacquet — My personal projects &amp; stuff</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Summary A simple binary led watch. Programmed in bare-metal C (i.e. no HAL), uses a MSP430 uC and 24 green leds.
+Features:
+ 16-bit ultra low power uC 32k watch crystal High-brightness green led display Ultra low power accelerometer 2.4GHz low power transceiver LiPo charger w/ uUSB connector 1x reset/setup button Motor driver (single FET)  Specs Components:
+ uC: MSP430F5247 2.4GHz TRX: nRF24L01&#43; Leds: 150141VS73100 (2V green) Accelerometer: LIS3DH Charger: MCP73812 Regulator: TPS62742 Pusbutton: TL-3315 Dev kit/Programmer: MSP-EXP430F5529LP  Schematic PDF"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://princejacquet.github.io/projects/ledwatch/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://princejacquet.github.io/assets/style.css">
+
+
+<link rel="stylesheet" href="https://princejacquet.github.io/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://princejacquet.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://princejacquet.github.io/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ledwatch"/>
+<meta name="twitter:description" content="Summary A simple binary led watch. Programmed in bare-metal C (i.e. no HAL), uses a MSP430 uC and 24 green leds.
+Features:
+ 16-bit ultra low power uC 32k watch crystal High-brightness green led display Ultra low power accelerometer 2.4GHz low power transceiver LiPo charger w/ uUSB connector 1x reset/setup button Motor driver (single FET)  Specs Components:
+ uC: MSP430F5247 2.4GHz TRX: nRF24L01&#43; Leds: 150141VS73100 (2V green) Accelerometer: LIS3DH Charger: MCP73812 Regulator: TPS62742 Pusbutton: TL-3315 Dev kit/Programmer: MSP-EXP430F5529LP  Schematic PDF"/>
+
+
+
+<meta property="og:title" content="Ledwatch" />
+<meta property="og:description" content="Summary A simple binary led watch. Programmed in bare-metal C (i.e. no HAL), uses a MSP430 uC and 24 green leds.
+Features:
+ 16-bit ultra low power uC 32k watch crystal High-brightness green led display Ultra low power accelerometer 2.4GHz low power transceiver LiPo charger w/ uUSB connector 1x reset/setup button Motor driver (single FET)  Specs Components:
+ uC: MSP430F5247 2.4GHz TRX: nRF24L01&#43; Leds: 150141VS73100 (2V green) Accelerometer: LIS3DH Charger: MCP73812 Regulator: TPS62742 Pusbutton: TL-3315 Dev kit/Programmer: MSP-EXP430F5529LP  Schematic PDF" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://princejacquet.github.io/projects/ledwatch/" />
+<meta property="og:site_name" content="Prince Jacquet" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Prince Jacquet ♕</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects/list">Projects</a></li>
+        
+      
+        
+          <li><a href="/root">Roots</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/projects/list">Projects</a></li>
+      
+    
+      
+        <li><a href="/root">Roots</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="https://princejacquet.github.io/projects/ledwatch/">Ledwatch</a></h2>
+    <div class="post-meta">
+      
+      
+      
+    </div>
+
+    
+
+    
+      
+        <img src="https://princejacquet.github.io/projects/ledwatch/img/lw_pcb_real.jpg" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      <h2 id="summary">Summary</h2>
+<p>A simple binary led watch. Programmed in bare-metal C (i.e. no HAL), uses a MSP430 uC and 24 green leds.</p>
+<p>Features:</p>
+<ul>
+<li>16-bit ultra low power uC</li>
+<li>32k watch crystal</li>
+<li>High-brightness green led display</li>
+<li>Ultra low power accelerometer</li>
+<li>2.4GHz low power transceiver</li>
+<li>LiPo charger w/ uUSB connector</li>
+<li>1x reset/setup button</li>
+<li>Motor driver (single FET)</li>
+</ul>
+<h2 id="specs">Specs</h2>
+<p>Components:</p>
+<ul>
+<li>uC: <a href="http://www.ti.com/product/MSP430F5247">MSP430F5247</a></li>
+<li>2.4GHz TRX: <a href="https://www.digikey.com/catalog/en/partgroup/nrf24l01/44008">nRF24L01+</a></li>
+<li>Leds: <a href="https://www.digikey.com/product-detail/en/w-rth-elektronik/150141VS73100/732-5002-1-ND/4489970">150141VS73100</a> (2V green)</li>
+<li>Accelerometer: <a href="https://www.st.com/en/mems-and-sensors/lis3dh.html">LIS3DH</a></li>
+<li>Charger: <a href="https://www.microchip.com/wwwproducts/en/MCP73812">MCP73812</a></li>
+<li>Regulator: <a href="http://www.ti.com/product/TPS62742">TPS62742</a></li>
+<li>Pusbutton: <a href="https://www.e-switch.com/product-catalog/tact/product-lines/tl3315-series-low-profile-smt-tactile-switch">TL-3315</a></li>
+<li>Dev kit/Programmer: <a href="http://www.ti.com/tool/MSP-EXP430F5529LP">MSP-EXP430F5529LP</a></li>
+</ul>
+<p><a href="lw_schematic.pdf">Schematic PDF</a><br>
+<a href="lw_kicad.zip">Kicad project ZIP</a><br>
+<a href="lw_bom.ods">BOM</a><br>
+<a href="lw_stl.zip">3D STL ZIP</a><br>
+<a href="lw_code.zip">Code ZIP</a></p>
+<h2 id="timeline">Timeline</h2>
+<p>I was at the end of my master&rsquo;s in Embedded Electronics, and needed an internship ASAP.<br>
+I had an interview in early september but was not selected and after asking the HR person, the reason was that I didn&rsquo;t seem properly motivated to them.</p>
+<p>So in early october, I set out to build a project that was small enough to bring to interviews that highlighted my electronics skills.<br>
+So I built a binary watch.</p>
+<p>The design was rushed and not documented at all, but I had something that blinked in ~3 weeks, excluding pcb turnaround.</p>
+<p>I was still programming display code minutes before taking the bus to a job/internship fair, but the watch grabbed the attention of a hardware startup&rsquo;s team and got me my internshin (and a job promise) the next week.</p>
+<p>It seems the project did its job successfully !</p>
+<p>So back into the drawer it went, until ~1 year after when I needed to land a new job and the code saw a bit of debugging and new features.<br>
+And back inte the drawer it went, again, for 6 months until christmas break when I modeled a body to be actually able to wear it as an actual watch.</p>
+<p>Now the project is paused again, because I started working on the next revision (see <a href="../mwatch">M-watch</a>).</p>
+<h2 id="design">Design</h2>
+<p>The watch drives a time-multiplexed LED display, with a simple 1 led per GPIO control scheme. To stay within the uC&rsquo;s GPIO current output spec, only 3 leds are ever active at any given time.</p>
+<p>It doesn&rsquo;t have buttons (except reset), and the original plan was to control it only using accelerometer tap gestures. But that fell short when the accelerometer&rsquo;s tap register always returned 0x00 instead of the tap direction, so now the control scheme is:</p>
+<ul>
+<li>Single button: press to toggle modes: currently BCD, digits, accel test, and time set</li>
+<li>Activate display: wrist shake gesture, or angle watch to face</li>
+<li>Set time: tilt up/down to change current number, shake Z to save and set next number</li>
+</ul>
+<p>I still didn&rsquo;t get around to use the nRF24 transceiver :(</p>
+<p>With such a rushed design, I made a few mistakes (and learned some lessons):</p>
+<ul>
+<li>Forgot to design a way to check the battery level -&gt; means the watch can stop at any time if not charged weekly</li>
+<li>The motor driver circuit is missing a diode (in addition to the body diode)</li>
+<li>Xtal caps were redundant, as it turns out you can enable internal caps in the uC</li>
+<li>I set VCC to 2V (LED&rsquo;s Vf so I could go without resistors), with no way to change it afterwards. The problem is that I did not account for the LED duty cycle, the effect being a very dim display. This is the real dealbreaker, meaning I can&rsquo;t use the watch with a diffuser or outdoors. Indoors works fine though.</li>
+<li>I connected GPIOs for an easier layout, and when programming, saw that only a single port had the ability to trigger ISRs. Of course all my interrupt sources were connected to another port (yay!). I got around to that by using the timer&rsquo;s capture/compare input function to trigger an ISR from my inputs, at the expense of higher power consumption.</li>
+<li>I didn&rsquo;t plan ahead for how the battery would fit, and because of the 32k crystal had to use a smaller capacity.</li>
+</ul>
+<p><img src="img/lw_render.png" alt="Kicad render" class="center" style="border-radius: 8px;" /></p>
+<p>The circuit was designed and laid out in KiCad v4 (and later ported to v5), and I used <a href="https://github.com/easyw/kicadStepUpMod/">StepUp tools</a> to import the PCB and components into SolidWorks.<br>
+It really helped me get the positions right for the led holes.</p>
+<p><img src="img/lw_kicad_pcb.png" alt="Kicad PCB" class="center" style="border-radius: 8px;" /></p>
+<p>I printed the watch body using <a href="https://www.shapeways.com/materials/versatile-plastic">Shapeways PA12</a>, I was worried about the smaller features, and even got a warning from Shapeways but it came out really nice !</p>
+<p>Unfortunately, I was migrating my self-hosted storage from Nextcloud to <a href="https://www.seafile.com/en/features/">Seafile</a> (which I really recommend btw, blazing fast), and I forgot to install the Seafile client on my Windows partition. Then, thinking all my files were synced, I merrily nuked the partition. Ooops.</p>
+<p>So I don&rsquo;t have the solidworks source files anymore, but still have the STLs from Shapeways print history. So no more design tweaks.</p>
+<p><img src="img/lw_stl_front.png" alt="STL front" class="center" style="border-radius: 8px;" />
+<img src="img/lw_stl_back.png" alt="STL back" class="center" style="border-radius: 8px;" /></p>
+<h2 id="reflow">Reflow</h2>
+<p>Like with my previous project, I ordered a stencil and placed the components by hand.<br>
+As always, I always make sure to use the right tool for the job ..NOT !</p>
+<p>Using the other PCBs as spacers for the stencil:
+<img src="img/lw_stencil_1.jpg" alt="Stencil setup" class="center" style="border-radius: 8px;" /></p>
+<p>And random stuff &amp; duct tape for holding the stencil flat
+<img src="img/lw_stencil_2.jpg" alt="Stencil setup" class="center" style="border-radius: 8px;" /></p>
+<p>After my adventures <a href="../guitarfm/#pcb">reflowing on a gas stove</a>, I upgraded my methods !
+Haha nope again, the real reason is that I moved into a new dorm that had a glass-ceramic cooktop and tried using it for reflow, checking the temp periodically with an IR gun.</p>
+<p>I placed the PCB directly on the cooktop surface, aaand.. burned my first batch ! Turns out the heating curve is not linear at all, damn!<br>
+For the next attempt, I continuously monitored the temperature and toggled the heat on and off to stay &lt;250°C.</p>
+<p>This attempt worked but I still had to touch up some solder bridges, nothing the liberal application of flux can&rsquo;t solve !</p>
+<p><img src="img/lw_pcb_real.jpg" alt="Ledwatch PCB" class="center" style="border-radius: 8px;" /></p>
+<h2 id="programming">Programming</h2>
+<p>I used a TI launchpad for programming and debugging the board.</p>
+<p><img src="img/lw_debug.jpg" alt="Programming setup" class="center" style="border-radius: 8px;" /></p>
+<p>No IDEs were harmed during development !</p>
+<p>I just used a text editor (<a href="https://www.sublimetext.com/">Sublime Text</a>) and a simple <a href="lw_makefile">makefile</a> calling TI <a href="http://www.ti.com/tool/MSP430-GCC-OPENSOURCE">MSP-GCC</a> for compilation and <a href="https://github.com/dlbeer/mspdebug">mspdebug</a> for flashing and for the gdb server.</p>
+<p>I used the gdb cli w/ the uC programming manual to debug. A bit tedious if you ask me, now I prefer to fire up eclipse along with the register definitions when I really need a debugger.</p>
+<h2 id="demo">Demo</h2>
+<p>A quick accelerometer test, filmed when debugging I2C &amp; display code</p>
+<p><img src="img/lw_gif_test.gif" alt="Accel debug test gif" class="center" style="border-radius: 8px;" /></p>
+<p>BCD mode:</p>
+<ul>
+<li>4 leds per digit</li>
+<li>Top row: hours</li>
+<li>Middle row: minutes</li>
+<li>Bottom row: seconds</li>
+</ul>
+
+    <video width="100%" height="500" controls loop muted>
+        <source src="vid/lw_bcd.mp4">
+    </video>
+
+<p>Digital mode:</p>
+<ul>
+<li>First flash: hours</li>
+<li>Second flash: minutes</li>
+</ul>
+
+    <video width="100%" height="500" controls loop muted>
+        <source src="vid/lw_digital.mp4">
+    </video>
+
+<p>Accelerometer test:</p>
+<p>
+    <video width="100%" height="500" controls loop muted>
+        <source src="vid/lw_tilt_short.mp4">
+    </video>
+
+
+    <video width="100%" height="500" controls loop muted>
+        <source src="vid/lw_tilt_long.mp4">
+    </video>
+</p>
+<h2 id="project-future">Project future</h2>
+<p>I wanted to build a better, smaller version of this watch, and was also toying with the idea of a modular smartwatch system, so I killed two birds with one stone and started designing a modular watch platform with a replaceable led display: <a href="../mwatch">M-watch</a>.</p>
+<p>The new watch has a nRF52 core pcb and will be using an RTOS, so the current ledwatch code won&rsquo;t be reused for now.</p>
+<p>But, if I decide to make a MSP430-based core pcb for the M-watch, I&rsquo;ll look into reusing/rewriting this code :)</p>
+
+    </div>
+    
+
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Prince Jacquet ♕</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://princejacquet.github.io/assets/main.js"></script>
+<script src="https://princejacquet.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

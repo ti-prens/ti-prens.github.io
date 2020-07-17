@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Modular wristwatch system :: Prince Jacquet — My personal projects &amp; stuff</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Summary Designed as a follow-up to Ledwatch.
+A modular (smart)watch system. The concept is splitting modern smartwatch functions into modular PCBs with mezzanine connectors, to be able to try different sensor/mcu/display combos without having to redesign everything from scratch each time.
+A minimum system would be 2 boards: core board &#43; display board. This is what I have begun designing, with a nRF52-based core board and a serial RGB led display board."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://princejacquet.github.io/projects/m-watch/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://princejacquet.github.io/assets/style.css">
+
+
+<link rel="stylesheet" href="https://princejacquet.github.io/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://princejacquet.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://princejacquet.github.io/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Modular wristwatch system"/>
+<meta name="twitter:description" content="Summary Designed as a follow-up to Ledwatch.
+A modular (smart)watch system. The concept is splitting modern smartwatch functions into modular PCBs with mezzanine connectors, to be able to try different sensor/mcu/display combos without having to redesign everything from scratch each time.
+A minimum system would be 2 boards: core board &#43; display board. This is what I have begun designing, with a nRF52-based core board and a serial RGB led display board."/>
+
+
+
+<meta property="og:title" content="Modular wristwatch system" />
+<meta property="og:description" content="Summary Designed as a follow-up to Ledwatch.
+A modular (smart)watch system. The concept is splitting modern smartwatch functions into modular PCBs with mezzanine connectors, to be able to try different sensor/mcu/display combos without having to redesign everything from scratch each time.
+A minimum system would be 2 boards: core board &#43; display board. This is what I have begun designing, with a nRF52-based core board and a serial RGB led display board." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://princejacquet.github.io/projects/m-watch/" />
+<meta property="og:site_name" content="Prince Jacquet" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Prince Jacquet ♕</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects/list">Projects</a></li>
+        
+      
+        
+          <li><a href="/root">Roots</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/projects/list">Projects</a></li>
+      
+    
+      
+        <li><a href="/root">Roots</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="https://princejacquet.github.io/projects/m-watch/">Modular wristwatch system</a></h2>
+    <div class="post-meta">
+      
+      
+      
+    </div>
+
+    
+
+    
+      
+        <img src="https://princejacquet.github.io/projects/m-watch/img/mw_exploded.png" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      <h2 id="summary">Summary</h2>
+<p>Designed as a follow-up to <a href="../ledwatch">Ledwatch</a>.</p>
+<p>A modular (smart)watch system. The concept is splitting modern smartwatch functions into modular PCBs with mezzanine connectors, to be able to try different sensor/mcu/display combos without having to redesign everything from scratch each time.</p>
+<p>A minimum system would be 2 boards: core board + display board. This is what I have begun designing, with a nRF52-based core board and a serial RGB led display board.</p>
+<p>But one can imagine for example:</p>
+<ol>
+<li>Top board: Color LCD + driver, NFC transceiver + coil</li>
+<li>Middle board: ARM SoC w/ BLE &amp; secure coprocessor, IMU</li>
+<li>Bottom board: Heart-rate sensor, wireless charger</li>
+<li>LiPo battery</li>
+</ol>
+<p>Or for a lower-power system:</p>
+<ol>
+<li>Top board: Segment LCD</li>
+<li>Middle board: MSP430 MCU, low power accelerometer</li>
+<li>Lithium coin cell</li>
+</ol>
+<p>The one I&rsquo;m building right now:</p>
+<ol>
+<li>Top: 24 RGB leds, 5V DCDC, ambient light sensor</li>
+<li>Middle: ARM SoC w/ BLE, 3V DCDC, accelerometer, Motor driver, LiPo charger</li>
+<li>LiPo battery</li>
+</ol>
+<h2 id="specs">Specs</h2>
+<p>Components:</p>
+<ul>
+<li>BLE SoC: <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52832">nRF52832</a></li>
+<li>Leds: <a href="https://www.adafruit.com/product/3341">APA102-2020</a></li>
+<li>Accelerometer: <a href="https://www.st.com/en/mems-and-sensors/lis3dh.html">LIS3DH</a></li>
+<li>Charger: <a href="http://www.ti.com/product/BQ21040">bq21040</a></li>
+<li>Core DCDC: <a href="http://www.ti.com/product/TPS62743">TPS62743</a> (mistake in schematic it seems)</li>
+<li>LED DCDC: <a href="http://www.ti.com/product/TPS61099">TPS610997</a> (5V fixed)</li>
+<li>3-5V level shifter: <a href="https://www.digikey.com/product-detail/en/nxp-usa-inc/NTB0102GF115/568-5570-1-ND/2531048">NTB0102GF,115</a></li>
+<li>Tactile switches: <a href="https://www3.panasonic.biz/ac/e/search_num/index.jsp?c=detail&amp;part_no=EVQP3401P">EVQ-P3401P</a></li>
+<li>Pusbuttons: <a href="https://en.wikipedia.org/wiki/Casio_F-91W">Casio F-91W</a> (using just the buttons &amp; mini o-rings)</li>
+<li>Ambient light sensor: <a href="https://www.broadcom.com/products/optical-sensors/ambient-light-photo-sensors/apds-9306-065">APDS-9306-065</a></li>
+<li>Motor driver: <a href="https://www.onsemi.com/products/power-management/motor-drivers/motor-drivers-brushless/lc898302axa">LC898302AXA</a></li>
+<li>Load switches: <a href="https://www.onsemi.com/products/power-management/load-switches/fpf1203l">FPF1203LUCX</a></li>
+<li>Battery: 125mAh LiPo</li>
+<li>Connector female: <a href="https://www.digikey.com/product-detail/en/molex/0513380274/WM3353CT-ND/2405694">513380274</a></li>
+<li>Connector male: <a href="https://www.digikey.com/product-detail/en/molex/0559090274/WM3450CT-ND/2405679">559090274</a></li>
+<li>Devkit &amp; programmer/debugger: <a href="https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52-DK">nRF52-DK</a></li>
+</ul>
+<p>Project files: (as-is, pcbs have not been built yet)</p>
+<p>Core board:<br>
+<a href="pdf/rgbw.pdf">Schematic PDF</a><br>
+<a href="zip/rgbw.zip">Kicad project ZIP</a></p>
+<p>Display board:<br>
+<a href="pdf/fp-rgb.pdf">Schematic PDF</a><br>
+<a href="zip/fp-rgb.zip">Kicad project ZIP</a></p>
+<p>Charger/Debug board:<br>
+<a href="pdf/chg-rgb.pdf">Schematic PDF</a><br>
+<a href="zip/chg-rgb.zip">Kicad project ZIP</a></p>
+<p>Board assembly:
+<a href="pdf/assembly.pdf">Exploded view PDF</a></p>
+<h2 id="mechanical">Mechanical</h2>
+<p>The body was designed in SolidWorks, I tried another workflow for designing the PCB &amp; enclosure:</p>
+<ol>
+<li>Sketch out watch shape in <a href="https://inkscape.org/">Inkscape</a></li>
+<li>Create rough component shape to test fit</li>
+<li>Refine watch shape</li>
+<li>Design schematic in KiCad</li>
+<li>Import watch shape in KiCad layout</li>
+<li>Create rough 3d models for all components</li>
+<li>Place &amp; route PCB, checking 3d view for conflicts</li>
+<li>Export STEP file from KiCad layout</li>
+<li>Export DXF from inkscape</li>
+<li>Import STEP of the two PCBs in SolidWorks</li>
+<li>Test fit of PCBs</li>
+<li>Import DXF in SolidWorks, sketch a rough watch body volume</li>
+<li>Align PCB models with watch body</li>
+<li>Finish designing watch body</li>
+</ol>
+<p>Again, printed at shapeways, and the models seems to fit quite nicely, I guess we&rsquo;ll see for sure when I actually build it entirely !</p>
+<p><a href="3d/watch_assembled.step">Assembly STEP file</a></p>
+
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+	<model-viewer 
+		style="width: 100%; height: 400px; border-radius: 8px;"
+		src="3d/watch_assembled.glb"
+		alt="A 3D model of an astronaut" 
+		id="lazy-load"
+		reveal="interaction"
+		shadow-intensity="1"
+		auto-rotate
+		camera-controls 
+		poster="/enable3dprompt.png"
+		background-color="#455A64">
+	</model-viewer>
+
+<p>Having the (rough) 3d models of the component was very helpful for two reasons:</p>
+<ul>
+<li>I could verify that my footprints were correct</li>
+<li>It really helped for component placement.</li>
+</ul>
+<p>To be able to quickly generate package models, I finally bit the bullet, learned a bit of <a href="https://www.openscad.org/">OpenSCAD</a>, and created basic shapes (BGA, DFN, QFN) that could be easily reprogrammed. You can download the small library I made for this project here:<br>
+<a href="3d/openscad.zip">OpenSCAD source files ZIP</a></p>
+<h2 id="core-board">Core board</h2>
+<p><img src="img/mw_core_layout.png" alt="Core Kicad layout" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mw_core_front.jpg" alt="Core pcb front" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mw_core_back.jpg" alt="Core pcb back" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mw_core_side_left.jpg" alt="Core pcb left" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mw_core_side_right.jpg" alt="Core pcb right" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mw_core_side_top.jpg" alt="Core pcb top" class="center" style="border-radius: 8px;" /></p>
+<h2 id="display-board">Display board</h2>
+<p><img src="img/mw_disp_layout.png" alt="Display KiCad layout" class="center" style="border-radius: 8px;" /></p>
+<p>display &amp; core connected:</p>
+<p><img src="img/mw_pcbs.png" alt="Display &amp;amp; Core pcbs" class="center" style="border-radius: 8px;" /></p>
+<h2 id="debug-board">Debug board</h2>
+<p><img src="img/mw_charger_layout.png" alt="Debug Kicad layout" class="center" style="border-radius: 8px;" /></p>
+<p><img src="img/mw_charger.png" alt="Debug pcb" class="center" style="border-radius: 8px;" /></p>
+<h2 id="project-status">Project status</h2>
+<p>Due to my recent job change &amp; relocation to Norway, I had to give away some essential tools before leaving (limited space in suitcases), and as such, this project is now on pause.</p>
+<p>I will try to get a headstart on programming though, as it doesn&rsquo;t require any hardware except the dev kit which I already have.</p>
+<p>Things to do:</p>
+<ul>
+<li>Finish cradle 3d model</li>
+<li>Print cradle</li>
+<li>Send the PCBs to fab</li>
+<li>Finish the BOM</li>
+<li>Buy the components</li>
+<li>Reflow the components (farewell my soldering station..)</li>
+<li>Test &amp; bring-up the core board</li>
+<li>Test the display board</li>
+<li>Program the watch</li>
+<li>Make a small android companion app</li>
+</ul>
+
+    </div>
+    
+
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Prince Jacquet ♕</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://princejacquet.github.io/assets/main.js"></script>
+<script src="https://princejacquet.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

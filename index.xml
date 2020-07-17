@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prince Jacquet</title>
+    <link>https://princejacquet.github.io/</link>
+    <description>Recent content on Prince Jacquet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://princejacquet.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://princejacquet.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/about/</guid>
+      <description>About me Hi.
+You have landed on my personal website.
+I am Prince Jacquet, an electronic&amp;rsquo;s engineer to-be because I am trying to live by this motto : &amp;quot; Find something you would love to do for free and do it professionally &amp;ldquo;.
+So I work on designing digital boards.
+You can check out my CV here
+And here&amp;rsquo;s my linkedin page.
+Projects I have been inspired in many ways by many and all of them had in common the &amp;ldquo;learning by making&amp;rdquo; method.</description>
+    </item>
+    
+    <item>
+      <title>CrawlBot 1</title>
+      <link>https://princejacquet.github.io/projects/crawlbot1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/crawlbot1/</guid>
+      <description>Summary My first encounter with robotics, in 10th grade.
+This is a RC &amp;lsquo;robot&amp;rsquo; made in my basement for a French competition. Each actuator (gripper, lever, both track motors) is controlled and powered by a controller box with a simple joystick-style switch and pushbuttons.
+This was how they did it in the school&amp;rsquo;s robotics club before, and I didn&amp;rsquo;t know at the time what microcontrollers were.
+We built another one using an Arduino the year after: Crawl-bot-2</description>
+    </item>
+    
+    <item>
+      <title>Fvpedal</title>
+      <link>https://princejacquet.github.io/projects/fvpedal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/fvpedal/</guid>
+      <description>Summary A programmable guitar/bass effects pedal, based on the excellent Spin semi FV-1 DSP chip.
+I was just starting playing bass, and dubstep was all the rage in 2013, and I wanted a way to achieve the bass growl/vibrato effect with a real bass and an effects pedal.
+So I looked around and found the FV-1 chip, and decided to try myself at making a multi-effect guitar/bass pedal.
+Specs  SpinSemi FV-1 &amp;ldquo;analog&amp;rdquo; DSP chip Double program EEPROMs Attiny13 to switch DSP programs and toggle banks Rotary switch to control Attiny13 LM358 input stage with gain control LM358 output stage with volume control  Schematic ZIP</description>
+    </item>
+    
+    <item>
+      <title>Guitarfm</title>
+      <link>https://princejacquet.github.io/projects/guitarfm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/guitarfm/</guid>
+      <description>Summary An FM transmitter, just like the ones used for hearing your mp3 player&amp;rsquo;s music on your old car radio, but made for using with an electric guitar.
+I made 3 revisions of the design:
+ A cobbled-together proof of concept with breakout boards and perfboard, I did not take any pictures sadly A first pcb, with a preamp, 7-char LED display, and bypass-able diode distortion, but badly routed and suffers from noise issues A second pcb, adding a photoresistor preamp gain control, analog limiter, and lipo charger / psu, that works pretty okay  Rev 3 Components:</description>
+    </item>
+    
+    <item>
+      <title>Ledwatch</title>
+      <link>https://princejacquet.github.io/projects/ledwatch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/ledwatch/</guid>
+      <description>Summary A simple binary led watch. Programmed in bare-metal C (i.e. no HAL), uses a MSP430 uC and 24 green leds.
+Features:
+ 16-bit ultra low power uC 32k watch crystal High-brightness green led display Ultra low power accelerometer 2.4GHz low power transceiver LiPo charger w/ uUSB connector 1x reset/setup button Motor driver (single FET)  Specs Components:
+ uC: MSP430F5247 2.4GHz TRX: nRF24L01+ Leds: 150141VS73100 (2V green) Accelerometer: LIS3DH Charger: MCP73812 Regulator: TPS62742 Pusbutton: TL-3315 Dev kit/Programmer: MSP-EXP430F5529LP  Schematic PDF</description>
+    </item>
+    
+    <item>
+      <title>Modular wristwatch system</title>
+      <link>https://princejacquet.github.io/projects/m-watch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/m-watch/</guid>
+      <description>Summary Designed as a follow-up to Ledwatch.
+A modular (smart)watch system. The concept is splitting modern smartwatch functions into modular PCBs with mezzanine connectors, to be able to try different sensor/mcu/display combos without having to redesign everything from scratch each time.
+A minimum system would be 2 boards: core board + display board. This is what I have begun designing, with a nRF52-based core board and a serial RGB led display board.</description>
+    </item>
+    
+    <item>
+      <title>My Roots</title>
+      <link>https://princejacquet.github.io/root/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/root/</guid>
+      <description>What you will find here are the people and the stuff that helped made me.
+Groups Have you heard of the TIM UPS-INSA &amp;hellip; (￣▽￣)ノ
+It&amp;rsquo;s a place where you keep learning non-stop !
+I recommend ! Don&amp;rsquo;t hesitate to check them out !
+People Here is a non-exhaustive list of people I have learned from and what I have learned from them.
+Jonathan Rico : &amp;ldquo;There is NO LIMIT to what you can learn !</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://princejacquet.github.io/projects/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/list/</guid>
+      <description>My personal projects, in various states of completion:
+ Most of them are made for, and are properties of TIM UPS-INSA. If the link redirects here or to a 404 not found page, this means I haven&amp;rsquo;t written the project page yet ¯\_(ツ)_/¯ This website is still under construction there is more projects to come, and more detailed explanations as well.  Speed Calculator  SpeedBoard : An embedded system that calculate the speed of the car and transmite it by CAN Bus to the rest of the car.</description>
+    </item>
+    
+    <item>
+      <title>PureData IMU</title>
+      <link>https://princejacquet.github.io/projects/pd-imu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princejacquet.github.io/projects/pd-imu/</guid>
+      <description>Summary A system that allows one to graph the acceleration and angular velocity of a small widget in real-time, wirelessly.
+Features:
+ PC display programmed in Pure Data (a graphical language similar to MAX/MSP) Microcontroller: Arduino pro mini Wireless: nRF24L01+ LiPo battery charger &amp;amp; lipo battery for the sensor board  Downloads:
+ Course package ZIP Kicad project ZIP School writeup  Story In my master&amp;rsquo;s first year, I was asked by a professor if I could create an introduction to inertial sensors lab for masters students (in another school).</description>
+    </item>
+    
+  </channel>
+</rss>
