@@ -200,7 +200,7 @@ Gitlab = "ti-prens"
 Spotify = "manno9991"
 Lichess = "LePetitPrincee"
 Email = "jacquetped@gmail.com"
-Phone = "0647480044"
+
 [params.social.Mastodon]
 id = "@Le_Petit_Prince"
 prefix = "https://mastodon.social/"
