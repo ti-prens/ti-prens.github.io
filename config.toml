@@ -80,15 +80,16 @@ mobileMode = "auto"
 # Header title config
 [params.header.title]
 # URL of the LOGO
-logo = "favicon.ico"
+logo = ""
 # title name
-name = "  <font size=\"5\"> <i '> [PJA@server ~/]$ ></i></font>  "
+# name = "  <font size=\"5\"> <i '> [PJA@server ~/]$ ></i></font>  "
+name = " "
 # you can add extra information before the name (HTML format is supported), such as icons
-pre = ""
+pre = "<img src=\"favicon.ico\" alt=\"Home ^^\" />"
 # you can add extra information after the name (HTML format is supported), such as icons
 post = ""
 # whether to use typeit animation for title name
-typeit = true
+typeit = false
 
 # Footer config
 [params.footer]
