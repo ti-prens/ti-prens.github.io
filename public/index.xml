@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Prince&#39;s personal website</title>
+        <link>https://prince.jacquet.live/</link>
+        <description>This is my cool siteeee</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>jacquetped@gmail.com (Prince JACQUET)</managingEditor>
+            <webMaster>jacquetped@gmail.com (Prince JACQUET)</webMaster>
+            <atom:link href="https://prince.jacquet.live/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
