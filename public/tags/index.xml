@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Prince&#39;s personal website</title>
+        <link>https://prince.jacquet.live/tags/</link>
+        <description>Tags - Tag - Prince&#39;s personal website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>jacquetped@gmail.com (Prince JACQUET)</managingEditor>
+            <webMaster>jacquetped@gmail.com (Prince JACQUET)</webMaster><atom:link href="https://prince.jacquet.live/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>
