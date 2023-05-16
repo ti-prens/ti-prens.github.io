@@ -112,7 +112,7 @@ logo = ""
 # name = "  <font size=\"5\"> <i '> [PJA@server ~/]$ ></i></font>  "
 name = " "
 # you can add extra information before the name (HTML format is supported), such as icons
-pre = "<img src=\"favicon.ico\" alt=\"Home ^^\" />"
+pre = "<img src=\"/favicon_package_v0.16/favicon.ico\" alt=\"Home ^^\" />"
 # you can add extra information after the name (HTML format is supported), such as icons
 post = ""
 # whether to use typeit animation for title name
