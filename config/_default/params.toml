@@ -17,8 +17,8 @@ enableCodeCopy = true
 
 disableImageOptimization = false
 disableTextInHeader = false
-defaultBackgroundImage = "/img/aboutMePic.jpg" # used as default for background images 
-defaultFeaturedImage = "/img/board.jpg"    # used as default for featured images in all articles
+# defaultBackgroundImage = "/img/aboutMePic.jpg" # used as default for background images 
+# defaultFeaturedImage = "/img/board.jpg"    # used as default for featured images in all articles
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false

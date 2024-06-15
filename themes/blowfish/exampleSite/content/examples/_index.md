@@ -11,6 +11,7 @@ cascade:
   showSummary: false
   showLikes: false
   showViews: false
+type : "page"
 ---
 
 {{< lead >}}

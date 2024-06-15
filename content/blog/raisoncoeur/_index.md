@@ -3,9 +3,8 @@ title: "La raison a raison de freiner le cœur"
 date: 2017-07-12
 series : "amasauce"
 draft: false
+type : "page"
 ---
-
-
 
 J'étais sur ma voie.
 

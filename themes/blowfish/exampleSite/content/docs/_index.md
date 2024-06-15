@@ -6,6 +6,7 @@ cascade:
   showDate: false
   showAuthor: false
   invertPagination: true
+type : "page"
 ---
 
 {{< lead >}}

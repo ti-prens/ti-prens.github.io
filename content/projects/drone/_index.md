@@ -6,8 +6,10 @@ tags: ["project","sample","Perso"]
 categories: "Learning"
 project_context: "Perso"
 draft: false
+type : "page"
 ---
 
 Drone
+type : "page"
 ---
 

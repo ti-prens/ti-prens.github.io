@@ -3,6 +3,7 @@ title: "Super Héro !"
 date: 2017-08-02
 tags: ["media", "article","sample"]
 draft: false
+type : "page"
 ---
 
 Super Héros !

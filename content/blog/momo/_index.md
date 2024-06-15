@@ -3,6 +3,7 @@ title: "Il est c*n Momo"
 date: 2017-07-12
 series : "amasauce"
 draft: false
+type : "page"
 ---
 
 J'imagine ma vie comme une aventure, tous les passants qui croissent ma route peuvent en témoigner.

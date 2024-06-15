@@ -6,8 +6,8 @@ tags: ["project","sample","AIME"]
 categories: "Course"
 project_context: "UT3"
 draft: false
+type : "page"
 ---
 
 Diode
----
 

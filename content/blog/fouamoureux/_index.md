@@ -3,6 +3,7 @@ title: "Fou amoureux"
 date: 2017-06-12
 series : "amasauce"
 draft: false
+type : "page"
 ---
 
 Fou amoureux.

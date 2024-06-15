@@ -11,7 +11,7 @@
 
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     {{ if $where }}
-        {{ $pages := where .Site.RegularPages $where $value }}
+        {{ $pages := where .Site.Pages $where $value }}
         <!-- <p> list of pages that pass the filter : {{$pages}}</p> -->
         {{ if eq (len $pages) 0 }}
             <p>No articles found for {{$where}}: {{ $value }}</p>
@@ -23,7 +23,7 @@
             {{ end }}
         {{ end }}
     {{ else }}
-        {{ range .Site.RegularPages | first $limit }}
+        {{ range .Site.Pages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/card.html" . }}
             {{ end }}
@@ -35,7 +35,7 @@
 
 <section class="space-y-10 w-full mt-10 mb-10">
     {{ if $where }}
-        {{ $pages := where .Site.RegularPages $where $value }}
+        {{ $pages := where .Site.Pages $where $value }}
         {{ if eq (len $pages) 0 }}
             <p>No articles found for category: {{ $value }}</p>
         {{ else }}
@@ -46,7 +46,7 @@
             {{ end }}
         {{ end }}
     {{ else }}
-        {{ range .Site.RegularPages | first $limit }}
+        {{ range .Site.Pages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/simple.html" . }}
             {{ end }}
@@ -70,13 +70,13 @@
 
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     {{ if $where }}
-        {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
+        {{ range ( where .Site.Pages $where $value | first $limit ) }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/card.html" . }}
             {{ end }}
         {{ end }}
     {{ else }}
-        {{ range .Site.RegularPages | first $limit }}
+        {{ range .Site.Pages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/card.html" . }}
             {{ end }}
@@ -88,13 +88,13 @@
 
 <section class="space-y-10 w-full mt-10 mb-10">
     {{ if $where }}
-        {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
+        {{ range ( where .Site.Pages $where $value | first $limit ) }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/simple.html" . }}
             {{ end }}
         {{ end }}
     {{ else }}
-        {{ range .Site.RegularPages | first $limit }}
+        {{ range .Site.Pages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/simple.html" . }}
             {{ end }}
@@ -124,13 +124,13 @@
 
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     {{ if $where }}
-        {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
+        {{ range ( where .Site.Pages $where $value | first $limit ) }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/card.html" . }}
             {{ end }}
         {{end}}
     {{ else }}
-        {{ range .Site.RegularPages | first $limit }}
+        {{ range .Site.Pages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/card.html" . }}
             {{ end }}
@@ -142,13 +142,13 @@
 
 <section class="space-y-10 w-full mt-10 mb-10">
     {{ if $where }}
-        {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
+        {{ range ( where .Site.Pages $where $value | first $limit ) }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/simple.html" . }}
             {{ end }}
         {{end}}
     {{ else }}
-        {{ range .Site.RegularPages | first $limit }}
+        {{ range .Site.Pages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
                 {{ partial "article-link/simple.html" . }}
             {{ end }}

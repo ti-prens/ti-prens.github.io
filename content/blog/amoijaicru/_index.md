@@ -4,6 +4,7 @@ date: 2017-08-02
 tags: ["article","sample","amasauce"]
 series : "amasauce"
 draft: false
+type : "page"
 ---
 
 ![fee_pic](fee_2.webp)

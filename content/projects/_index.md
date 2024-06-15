@@ -3,6 +3,7 @@ title: "My Projects"
 type: "page"
 date: 2020-08-14
 layout: "simple"
+type : "page"
 ---
 
 {{< lead >}}
@@ -15,7 +16,7 @@ Those I can share.😉
 <!-- FOR SOME REASON IF I DO NOT USE CAROUSEL IMAGE BEFORE CAROUSEL PAGES THE LOGIC (THE BUTTONS AND THE TIME BASED CYCLE ) DO NOT WORK -->
 ## Made for [TIM](https://www.timupsinsa.com/)  
 
-{{< carousel_pages projectName="{dashboard, SpeedBoard}"  interval="3000" >}}
+{{< carousel_pages projectName="{dashboard, speedboard}"  interval="3000" >}}
 
 ## Made for school
 

@@ -9,6 +9,7 @@ lightgallery: true
 
 math:
   enable: true
+type : "page"
 ---
 
 Greetings ヾ(*'▽'*) ! 
