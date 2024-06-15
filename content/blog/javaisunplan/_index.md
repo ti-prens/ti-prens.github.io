@@ -3,6 +3,7 @@ title: "J'avais un plan"
 date: 2017-07-12
 series : "amasauce"
 draft: false
+type : "page"
 ---
 
 J'avais un plan.

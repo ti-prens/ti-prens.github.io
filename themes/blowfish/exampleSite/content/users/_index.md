@@ -11,9 +11,8 @@ showReadingTime: false
 showEdit: false
 layoutBackgroundHeaderSpace: false
 cardViewScreenWidth: false
+type : "page"
 ---
- 
-
 
 Real websites that are built with Blowfish. Check the full list in [JSON format](/users/users.json).
 

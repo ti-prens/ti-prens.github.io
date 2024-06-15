@@ -4,6 +4,7 @@ date: 2017-08-02
 tags: ["media", "article","sample"]
 genre : "media"
 draft: false
+type : "page"
 ---
 
 {{< lead >}}

@@ -3,6 +3,7 @@ title: "Narcisse"
 date: 2017-07-12
 series : "amasauce"
 draft: false
+type : "page"
 ---
 
 Narcisse

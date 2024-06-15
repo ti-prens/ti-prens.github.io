@@ -9,8 +9,8 @@ showReadingTime: false
 showEdit: false
 layoutBackgroundHeaderSpace: false
 cardViewScreenWidth: false
+type : "page"
 ---
-
 
 This is a test those the line take as much space as the longer text ? I am here to find out. Here I go. How long can I really be ? Am I on the right page
 

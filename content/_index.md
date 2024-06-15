@@ -1,6 +1,7 @@
 ---
 title: "Landing page"
 description: "About me ..."
+type : "page"
 ---
 
 My interest in electronics began at a young age, tinkering with a multimeter  

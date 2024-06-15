@@ -1,8 +1,8 @@
 ---
 title: "Contact me"
 layout: "simple"
+type : "page"
 ---
-
 
 {{< lead >}}
 What kind of service do I provide ?
