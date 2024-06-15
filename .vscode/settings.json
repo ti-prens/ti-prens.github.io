@@ -1,0 +1,7 @@
+{
+    "evenBetterToml.formatter.indentEntries": true,
+    "evenBetterToml.formatter.indentTables": true,
+    "evenBetterToml.formatter.indentString": "  ",
+    "evenBetterToml.formatter.reorderKeys": true,
+    "evenBetterToml.formatter.reorderArrays": true
+}

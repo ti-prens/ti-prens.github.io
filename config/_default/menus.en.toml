@@ -1,0 +1,119 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+#[[main]]
+#  name = "Blog"
+#  pageRef = "posts"
+#  weight = 10
+
+#[[main]]
+#  name = "Parent"
+#  weight = 20
+
+#[[main]]
+#  name = "example sub-menu 1"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
+
+#[[main]]
+#  name = "example sub-menu 2"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
+
+#[[subnavigation]]
+#  name = "An interesting topic"
+#  pageRef = "tags/interesting-topic"
+#  weight = 10
+
+#[[subnavigation]]
+#  name = "My Awesome Category"
+#  pre = "github"
+#  pageRef = "categories/awesome"
+#  weight = 20
+
+#[[main]]
+#  name = "Categories"
+#  pageRef = "categories"
+#  weight = 20
+
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
+
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20
+
+
+# Menu config
+# [[main]]
+# weight = 1
+# identifier = "about"
+# # you can add extra information before the name (HTML format is supported), such as icons
+# pre = ""
+# # you can add extra information after the name (HTML format is supported), such as icons
+# post = ""
+# name = "About"
+# url = "/about/"
+# title will be shown when you hover on this menu link
+# title = "About section"
+[[main]]
+weight = 2
+identifier = "blog"
+pre = ""
+post = ""
+name = "Blog"
+url = "/blog/"
+title = "Article on evrything that I find interesting"
+
+[[main]]
+weight = 1
+identifier = "projects"
+pre = ""
+post = ""
+name = "Projects"
+url = "/projects/"
+title = "Some of the projects that I can share"
+
+[[main]]
+weight = 3
+identifier = "shop"
+pre = ""
+post = ""
+name = "Shop"
+url = "/shop/"
+title = "Goods, delivrables that could be bought"
+
+
+[[main]]
+weight = 3
+identifier = "service"
+pre = ""
+post = ""
+name = "Service"
+url = "/service/"
+title = "Brain products, concultation"
