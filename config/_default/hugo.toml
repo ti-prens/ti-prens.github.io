@@ -11,7 +11,7 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 paginate = 100
-summaryLength = 0
+summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
@@ -33,11 +33,10 @@ enableEmoji = true
   anchor = 'Center'
 
 [taxonomies]
-  tags = "tags"
-  categories = "categories"
-  authors = "authors"
+  tag = "tags"
+  category = "categories"
+  author = "authors"
   series = "series"
-  project_context = "project_context"
 
 [sitemap]
   changefreq = 'always'
@@ -46,11 +45,11 @@ enableEmoji = true
 
 # Options to make hugo output files
 [outputs]
-  home = ["HTML"]
-  page = ["HTML"]
-  section = ["HTML"]
-  taxonomy = ["HTML"]
-  # taxonomyTerm = ["HTML"]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "RSS", "JSON"]
+  taxonomyTerm = ["HTML", "RSS", "JSON"]
 
 [related]
   threshold = 0
