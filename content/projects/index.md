@@ -1,45 +1,29 @@
 ---
-title: "Projectssssss"
+title: "My Projects"
 type: "page"
-# cover: "/speedBoard.svg"
+date: 2020-08-14
+layout: "simple"
 ---
 
-My personal projects, in various states of completion:
-- Most of them are made for, and are properties of [TIM UPS-INSA](http://www.timupsinsa.com/).   
-- If the link redirects here or to a 404 not found page,  this means I haven't written the project page yet ¯\\\_(ツ)\_/¯
-- This website is still under construction there is more projects to come, and more detailed explanations as well.
+{{< lead >}}
+Projects that I contributed to.
+Those I can share.😉
+{{< /lead >}}
 
+<!-- {{< carousel images="{https://i.ibb.co/twRyF6S/Add-a-heading.png}"  >}}   -->
+{{< carousel images="{https://i.ibb.co/V3XN84p/Click.png}"  >}}  
+<!-- FOR SOME REASON IF I DO NOT USE CAROUSEL IMAGE BEFORE CAROUSEL PAGES THE LOGIC (THE BUTTONS AND THE TIME BASED CYCLE ) DO NOT WORK -->
+## Made for [TIM](https://www.timupsinsa.com/)  
 
-Speed Calculator
-----------------
+{{< carousel_pages projectName="{dashboard, SpeedBoard}"  interval="3000" >}}
 
-- [SpeedBoard](https://easyeda.com/JacquetPED/Speed-Controller) : An embedded system that calculate the speed of the car and transmite it by CAN Bus to the rest of the car. 
-I focused on hardware and [Sofiane Aouci](https://www.linkedin.com/in/sofiane-aouci/) wonderfully took care of the software.
+## Made for school
 
+{{< carousel_pages projectName="{dmd, plant, diode}"  interval="3000" >}}
 
-TDB - DashBoard
----------------
+## Made for **work***
 
-- [Hardware](https://github.com/PrinceJacquet/TBD) : It's a simple µC base system with various switches to control certain parameters of the car and give some feedback on the state of the car with some LEDs.  
-There is still another hardware iteration to come.  
+{{< carousel_pages projectName="{eurekafe}"  interval="3000" >}}
 
-- [Software](https://github.com/PrinceJacquet/TBD) : While on this project I put at test my 
-theoretical knowledge on microcontroller and exercice my C skills.
-
-
-DMD - Distance Measuring Device 
--------------------------------
-
-- [DMD](../dmd) : This project is all about producing the design of an analog precision measuring device made for a CMI course.  
-We used Proteus for the PCB design and determined the right values for our passive components and the best suited amp-op for the different task.
-
-
-
-Other
------
-
-- [Eurekafé APP](../eurekafe) : Using Unity, Vuforia, Blender and some C#, I made a simple (AR) Augmented Reality Android application that gave *life* to some object or picture whend scan by the phone. 
-
-
-
-
+## Made for fun
+{{< carousel_pages projectName="{drone}"  interval="3000" >}}
