@@ -1,12 +1,11 @@
 ---
-title: "SpeedBoard"
+title: "Speed Board"
 date: 2017-08-02
 tags: ["project","sample","TIM"]
-categories: "TIM"
 draft: false
 type : "page"
 ---
-
+stuff
 Speed Calculator
 -------------
 

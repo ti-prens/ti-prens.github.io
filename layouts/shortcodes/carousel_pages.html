@@ -11,13 +11,13 @@
 {{ $images := slice }}
 
 <!-- Debugging output -->
-<!-- <p>Id: {{ $id }}</p>  --> 
-<!-- <p>Aspect Ratio: {{ $aspect }}</p>  --> 
-<!-- <p>Interval: {{ $interval }}</p>  --> 
-<!-- <p>Shortcode Called from Page path: {{ $page.File.Path }}</p>  --> 
-<!-- <p>Shortcode Used in Page: {{ $page }}</p>  --> 
-<!-- <p>Current Directory: {{ $currentDir }}</p> --> 
-<!-- <p>Project Names (raw): {{ $projectNames }}</p>  --> 
+<!--  <p>Id: {{ $id }} </p>  -->
+<!--  <p>Aspect Ratio: {{ $aspect }} </p>  -->
+<!--  <p>Interval: {{ $interval }} </p>  -->
+<!--  <p>Shortcode Called from Page path: {{ $page.File.Path }} </p>  -->
+<!--  <p>Shortcode Used in Page: {{ $page }} </p>  -->
+<!--  <p>Current Directory: {{ $currentDir }} </p>  -->
+<!--  <p>Project Names (raw): {{ $projectNames }} </p>  -->
 
 <!-- Extract project names -->
 {{ $projectNames = strings.TrimPrefix "{" $projectNames }}
@@ -25,18 +25,18 @@
 {{ $projectNames = split $projectNames "," }}
 
 <!-- Debugging output -->
-<!-- <p>Project Names (split): {{ $projectNames }}</p>  -->
+<!--  <p> =====   Project Names (split): {{ $projectNames }}   ======</p>  -->
 
 <!-- Iterate through all content directories to find projects -->
 
-{{ range where .Site.Pages "Params.type" "page" }}
+{{ range where .Site.Pages "Type" "page" }}
   {{ $cur_page := . }}
   {{ $pageDir := $cur_page.RelPermalink }}
 
   <!-- Debugging output for each page -->
-  <!-- <p>cur_page {{ $cur_page }}</p>            -->
-  <!-- <p>Page: {{ $cur_page.RelPermalink }}</p>            -->
-  <!-- <p>Page Dir: {{ $pageDir }}</p>            -->
+<!--  <p>cur_page {{ $cur_page }} </p>  -->
+<!--  <p>Page: {{ $cur_page.RelPermalink }} </p>  -->
+<!--  <p>Page Dir: {{ $pageDir }} </p>  -->
 
   {{ range $projectNames }}
     {{ $projectname := trim . " " }}
@@ -44,9 +44,8 @@
 
     {{ if eq (path.Base $pageDir) $projectname }}
     <!-- Debugging output for each project name -->
-    <!-- <p>     -->
-    <!--   -- Project Name: {{ $projectname }}</p>    -->
-    <!-- <p>  Path Base Dir: {{ path.Base $pageDir }}</p>    -->
+<!--  <p> Project Name: {{ $projectname }} </p>  -->
+<!--  <p>  Path Base Dir: {{ path.Base $pageDir }} </p>  -->
       <!-- Append the matching page to the slice -->   
     <!--   <p>2 - I was here</p>    -->
       {{ $matchingPages = $matchingPages | append $cur_page }}
@@ -93,7 +92,7 @@
     <!--   {{ end }}  -->
     <!-- </div>  -->
   {{ else }}
-    <p>No feature images found for page {{ $page_path }}</p>
+<!--  <p>No feature images found for page {{ $page_path }} </p>  -->
   {{ end }}
 {{ end }}
 
