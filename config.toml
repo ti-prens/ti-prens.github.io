@@ -1,0 +1,4 @@
+# baseURL = 'https://prince.jacquet.live'
+baseURL = "http://ti-prens.github.io/"
+uglyURLs = false
+theme = "blowfish" # UNCOMMENT THIS LINE
