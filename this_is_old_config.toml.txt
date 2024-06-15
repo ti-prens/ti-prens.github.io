@@ -1,4 +1,4 @@
-baseURL = 'https://prince.jacquet.live'
+baseURL = 'prince.jacquet.live'
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
