@@ -12,21 +12,16 @@ Those I can share.😉
 {{< /lead >}}
 
 <!-- {{< carousel images="{https://i.ibb.co/twRyF6S/Add-a-heading.png}"  >}}   -->
-{{< carousel images="{https://i.ibb.co/V3XN84p/Click.png}"  >}}  
+<!-- {{< carousel images="{https://i.ibb.co/V3XN84p/Click.png}"  >}}   -->
 <!-- FOR SOME REASON IF I DO NOT USE CAROUSEL IMAGE BEFORE CAROUSEL PAGES THE LOGIC (THE BUTTONS AND THE TIME BASED CYCLE ) DO NOT WORK -->
-## Made for [TIM](https://www.timupsinsa.com/)  
 
 {{< list title="## Made for [TIM](https://www.timupsinsa.com/) " cardView=true limit=6 where="Params.genre" value="project_tim" >}}
 
-{{< carousel_pages projectName="{dashboard, speedboard}"  interval="3000" >}}
 
-## Made for school
+{{< list title="## Made for school" cardView=true limit=6 where="Params.genre" value="project_school" >}}
 
-{{< carousel_pages projectName="{dmd, plant, diode}"  interval="3000" >}}
 
-## Made for **work***
 
-{{< carousel_pages projectName="{eurekafe}"  interval="3000" >}}
+{{< list title="## Made for **work**" cardView=true limit=6 where="Params.genre" value="project_work" >}}
 
-## Made for fun
-{{< carousel_pages projectName="{drone}"  interval="3000" >}}
+{{< list title="## Made for fun" cardView=true limit=6 where="Params.genre" value="project_perso" >}}
