@@ -6,6 +6,7 @@ tags: ["project","sample","TIM"]
 categories: "TIM"
 project_context: "TIM"
 draft: false
+genre: "project_tim"
 type : "page"
 ---
 

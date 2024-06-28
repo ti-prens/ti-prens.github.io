@@ -2,6 +2,7 @@
 title: "Digital gardener"
 date: 2017-08-02
 tags: ["project","sample","college"]
+genre: "project_school"
 draft: false
 type : "page"
 ---

@@ -3,6 +3,7 @@ title: "Distance Measuring Device"
 date: 2017-08-02
 tags: ["project","sample","college"]
 draft: false
+genre: "project_school"
 type : "page"
 ---
 
