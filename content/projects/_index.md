@@ -16,6 +16,8 @@ Those I can share.😉
 <!-- FOR SOME REASON IF I DO NOT USE CAROUSEL IMAGE BEFORE CAROUSEL PAGES THE LOGIC (THE BUTTONS AND THE TIME BASED CYCLE ) DO NOT WORK -->
 ## Made for [TIM](https://www.timupsinsa.com/)  
 
+{{< list title="## Made for [TIM](https://www.timupsinsa.com/) " cardView=true limit=6 where="Params.genre" value="project_tim" >}}
+
 {{< carousel_pages projectName="{dashboard, speedboard}"  interval="3000" >}}
 
 ## Made for school

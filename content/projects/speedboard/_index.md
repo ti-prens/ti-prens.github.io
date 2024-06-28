@@ -3,6 +3,7 @@ title: "Speed Board"
 date: 2017-08-02
 tags: ["project","sample","TIM"]
 draft: false
+genre: "project_tim"
 type : "page"
 ---
 stuff
