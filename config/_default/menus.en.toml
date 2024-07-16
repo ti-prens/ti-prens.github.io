@@ -81,6 +81,7 @@
 # url = "/about/"
 # title will be shown when you hover on this menu link
 # title = "About section"
+
 [[main]]
 weight = 2
 identifier = "blog"
@@ -88,7 +89,7 @@ pre = ""
 post = ""
 name = "Blog"
 url = "/blog/"
-title = "Article on evrything that I find interesting"
+title = "Articles on Everything I Find Interesting"
 
 [[main]]
 weight = 1
@@ -97,17 +98,7 @@ pre = ""
 post = ""
 name = "Projects"
 url = "/projects/"
-title = "Some of the projects that I can share"
-
-[[main]]
-weight = 3
-identifier = "shop"
-pre = ""
-post = ""
-name = "Shop"
-url = "/shop/"
-title = "Goods, delivrables that could be bought"
-
+title = "Some Projects That I Can Share"
 
 [[main]]
 weight = 3
@@ -116,4 +107,15 @@ pre = ""
 post = ""
 name = "Service"
 url = "/service/"
-title = "Brain products, concultation"
+title = "Brain Products and Consultation"
+
+
+
+# [[main]]
+# weight = 3
+# identifier = "shop"
+# pre = ""
+# post = ""
+# name = "Shop"
+# url = "/shop/"
+# title = "Goods, delivrables that could be bought"

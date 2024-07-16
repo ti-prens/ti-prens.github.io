@@ -8,15 +8,15 @@ title = "Prince's personal website"
   isoCode = "en"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "/img/logo-prince-round-crown-gold.png"
-  secondaryLogo = "/img/logo prince round crown gray.png"
+  logo = "img/logo-prince-round-crown-gold.png"
+  secondaryLogo = "img/logo prince round crown gray.png"
   description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "Creative Commons Zero v1.0 Universal"
 
 # Author have been moved to datas
 [author]
   name = "Prince Jacquet"
-  image = "/img/ti-prens.png"
+  image = "img/ti-prens.png"
   headline = "Embedded Systems Engineer, Blogger, Consultant, Enthusiast, Learner ..."
   bio = "I press toward the goal unto the prize of the high calling of God in Christ Jesus"
   links = [
