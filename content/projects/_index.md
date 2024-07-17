@@ -15,13 +15,10 @@ Those I can share.😉
 <!-- {{< carousel images="{https://i.ibb.co/V3XN84p/Click.png}"  >}}   -->
 <!-- FOR SOME REASON IF I DO NOT USE CAROUSEL IMAGE BEFORE CAROUSEL PAGES THE LOGIC (THE BUTTONS AND THE TIME BASED CYCLE ) DO NOT WORK -->
 
-{{< list title="## Made for [TIM](https://www.timupsinsa.com/) " cardView=true limit=6 where="Params.genre" value="project_tim" >}}
+{{< list title="## Made for *fun*" cardView=true limit=6 where="Params.genre" value="project_perso" >}}
 
+{{< list title="## Made for [TIM](https://www.timupsinsa.com/) " cardView=true limit=6 where="Params.genre" value="project_tim" >}}
 
 {{< list title="## Made for school" cardView=true limit=6 where="Params.genre" value="project_school" >}}
 
-
-
 {{< list title="## Made for **work**" cardView=true limit=6 where="Params.genre" value="project_work" >}}
-
-{{< list title="## Made for fun" cardView=true limit=6 where="Params.genre" value="project_perso" >}}
