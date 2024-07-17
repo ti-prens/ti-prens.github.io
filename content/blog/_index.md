@@ -12,8 +12,7 @@ cardViewScreenWidth: false
 type : "page"
 ---
 
-This is a test those the line take as much space as the longer text ? I am here to find out. Here I go. How long can I really be ? Am I on the right page
-
+Here I write about what  
 <hr style="border:2px solid gray">
 
 {{< list title="Media analysis" cardView=true limit=6 where="Params.genre" value="media" >}}
