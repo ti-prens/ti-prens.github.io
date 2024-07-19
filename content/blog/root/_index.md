@@ -2,7 +2,6 @@
 title: "My Roots"
 type: "page"
 cover: "/TIMsSpirit.png"
-type : "page"
 ---
 
 Welcome to the page where you can discover the roots of who I am today.\
@@ -10,7 +9,6 @@ This is where I share the groups and individuals that have influenced my journey
 
 
 Groups
----type : "page"
 ---
 
 One group that has had a profound impact on my personal and professional growth is the ... TIM UPS-INSA (￣▽￣)ノ  .\
@@ -20,7 +18,6 @@ I highly recommend [checking them out!](https://www.timupsinsa.com)
 
 
 People
----type : "page"
 ---
 
 The following individuals have been instrumental in my learning journey, and I am grateful for the wisdom they have shared with me:

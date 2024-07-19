@@ -16,7 +16,7 @@ Je vais veiller sur Yoshi, le protéger, rendre plus agréable sa vie, qu'il ado
 
 Yoshi n'est pas un humain, c'est le lapin d'une amie.
 
-Il n'est même pas à moi, de plus j'ai peur de lui, mais en lui je me vois.
+Il n'est même pas à moi, en plus j'ai peur de lui, mais en lui je me vois.
 
 Enfermé dans mon appart' d'abord, puis par l'habitude et le confort ensuite.
 
@@ -26,7 +26,7 @@ J'étais un super homme, je voyais tout, leurs problèmes ne m'atteignaient pas 
 
 Il y avait cette gentille vieille dame qui promenait son chien, avec qui elle discutait pour supporter sa solitude.
 
-Il y avait ce gamin, avec un air lassé, qui face à son écran, ne voyait pas qu'il y avait que son smartphone et lui.
+Il y avait ce gamin, avec un air lassé, qui face à son écran, ne voyait pas qu'il n'y avait que son smartphone et lui.
 
 Il y avait eux dans leur solitude omniprésente, et il y avait moi qui les voyais de loin.
 
