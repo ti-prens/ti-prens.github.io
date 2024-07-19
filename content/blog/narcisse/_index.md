@@ -6,21 +6,19 @@ draft: false
 type : "page"
 ---
 
-Narcisse
-
 Il était une fois un jeune homme si beau que DiCaprio, Brad Pitt, et même Cumberbatch paraissaient laids en comparaison... Mais quel beau jeune homme !
 
-Il était si sublime que la solitude le pesait ; son reflet seul pouvait concourir, mais jamais ne le comblait.
+Il était si sublime que la solitude lui pesait ; son reflet seul pouvait concourir, mais jamais ne le comblait.
 
-Son image ne lui fit jamais honneur, car elle, à son grand désespoir, ne fut jamais parfaite.
+Son image ne lui faisait jamais honneur, car elle, à son grand désespoir, n'était jamais parfaite.
 
-Son image, tel un écho, était présente et souffrait avec lui.
+Son image, telle un écho, était présente et souffrait avec lui.
 
 Condamné à la solitude.
 
 Le pauvre ! Être moche aurait été un fardeau moins lourd.
 
-Car en quête de lui-même, à coup d'œil dans le rétroviseur et à coup de selfie, il s'assommait peu à peu.
+Car en quête de lui-même, à coups d'œil dans le rétroviseur et à coups de selfie, il s'assommait peu à peu.
 
 Ô beau jeune homme, hmm... ses snaps attiraient du monde.
 

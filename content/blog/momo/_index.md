@@ -6,33 +6,33 @@ draft: false
 type : "page"
 ---
 
-J'imagine ma vie comme une aventure, tous les passants qui croissent ma route peuvent en témoigner.
+J'imagine ma vie comme une aventure, tous les passants qui croisent ma route peuvent en témoigner.
 
-( Les pauvres 😂😅)
+(Les pauvres 😂😅)
 
-Je suis atypique, j'attire l'attention pourtant c'est quasiment jamais mon but.
+Je suis atypique, j'attire l'attention pourtant ce n'est quasiment jamais mon but.
 
-Je danse dans le métro, je fait des grimaces aux gosses, je saute sur place, prends l'odeur des fleurs...Je dis Bonjour (même à 19 heures 😎😋😅)_ breff , je me balade sans boussole dans un monde que je m'engage à découvrir par moi-même.
+Je danse dans le métro, je fais des grimaces aux gosses, je saute sur place, je prends l'odeur des fleurs... Je dis bonjour (même à 19 heures 😎😋😅) _ bref, je me balade sans boussole dans un monde que je m'engage à découvrir par moi-même.
 
-J'ai rencontré sur ma route des personnages pas moins atypique.
+J'ai rencontré sur ma route des personnages pas moins atypiques.
 
-Un sénégalais italien. (ouii, ça existe !)
+Un Sénégalais italien. (oui, ça existe !)
 
 C'est un connard.
 
-Pour protéger son anonyma on va l'appeler MoMo 😂
+Pour protéger son anonymat on va l'appeler MoMo 😂
 
-Le mec, il te vois, il te dis pas bonjour, il te tire les cheveux ! Il se moque de toi ! Fait rire à tes dépend ! Te singe parfois...Et t'insulte par moment 😅.
+Le mec, il te voit, il te dit pas bonjour, il te tire les cheveux ! Il se moque de toi ! Fait rire à tes dépens ! Te singe parfois... Et t'insulte par moment 😅.
 
 Il est con MoMo !
 
-Mais sachez que ce n'est pas le syndrome de Stockholm, ni une absence de personnalité, ou encore des problèmes d'estime de soi qui fait qu'on l'aime quand même. 
+Mais sachez que ce n'est pas le syndrome de Stockholm, ni une absence de personnalité, ou encore des problèmes d'estime de soi qui fait qu'on l'aime quand même.
 
 C'est qu'il fait tout ça sans jamais être méchant, sans jamais souhaiter blesser.
 
-Mais parfois ça arrive... et quand il te blesse, il est le premier à s'en excusé et à s'en souvenir.
+Mais parfois ça arrive... et quand il te blesse, il est le premier à s'excuser et à s'en souvenir.
 
- Cette "blague"...Il ne la refera plus.
+Cette "blague"... Il ne la refera plus.
 
 Il est con ce MoMo !
 
@@ -40,11 +40,10 @@ De vous à moi, j'aime sa couleur de peau ! 😆😅
 
 Il est un "râleur bosseur". C'est un concept absurde que j'ai inventé et qui lui va comme un gant.
 
-"J'ai faim", "je suis fatigué", "je veux pas marcher" sont ces principales répliques.
+"J'ai faim", "je suis fatigué", "je veux pas marcher" sont ses principales répliques.
 
-Et pourtant il finis presque toujours tous ces exercices des cours et travaille le weekend.
+Et pourtant il finit presque toujours tous ses exercices de cours et travaille le weekend.
 
-Ses journées sont longues, mais avec lui les nôtres sont plus courtes et plus drôle.
-
+Ses journées sont longues, mais avec lui les nôtres sont plus courtes et plus drôles.
 
 Il est con MoMo ! ... Mais on l'aime comme ça !!

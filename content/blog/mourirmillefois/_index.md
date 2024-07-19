@@ -26,7 +26,7 @@ Youssoupha est l'un des nombreux enfants de Tabu Ley Rochereau. Youssoupha venai
 
 En quoi est-il un génie ?
 
-Je m'étale souvent car je ne sais pas faire simple. Pour moi, faire simple, c'est tronqué, or tronquer, c'est tromper ! Une demi-vérité vaut autant qu'un mensonge. Parce que tout n'est pas dit, parce qu'il y a du "mystère", des faces cachées où toutes sortes de surprises peuvent se dissimuler !
+Je m'étale souvent car je ne sais pas faire simple. Pour moi, faire simple, c'est tronquer, or tronquer, c'est tromper ! Une demi-vérité vaut autant qu'un mensonge. Parce que tout n'est pas dit, parce qu'il y a du "mystère", des faces cachées où toutes sortes de surprises peuvent se dissimuler !
 
 Mais en 5 minutes, Youssoupha, dans ce chef-d'œuvre, décrit une palette d'émotions, toutes aussi complexes les unes que les autres ; pose des questions profondes, des questions qui poussent à la réflexion ; et au-delà de cet énorme travail d'esprit, ce texte est aussi un travail de cœur immense.
 
