@@ -1,0 +1,5 @@
+﻿Paramètre,Valeur
+"Communication ",1 wire
+Voltage input,3.3 to 6V
+"Température ",-40 to +80 °C
+Humidité,5% to 99 %

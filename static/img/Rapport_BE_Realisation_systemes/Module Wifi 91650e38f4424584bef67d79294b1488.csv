@@ -1,0 +1,5 @@
+﻿Paramètre,Valeur
+"Communication ",Serial port
+Voltage input,3.5 to 5 V
+Fréquence,2402~2480 MHz
+Sécurité wifi,"WEP-128, WPA-PSK (TKIP), WPA2-PSK (AES)"

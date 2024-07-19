@@ -1,0 +1,10 @@
+﻿Composants,Ref.
+Carte STM32,NUCLEO-L152RE
+Capteur Température & humidité groove,DHT22
+Capteur niveau d'eau,
+"Capteur d'humidité du sol ",SX239
+Capteur de couleurs RGB,tcs34725
+Module Wifi,seeedstudio V2.0
+LCD groove,RGB V4.0
+"Base Shield ",V2.1
+,
