@@ -4,6 +4,7 @@ description: "About me ..."
 type : "page"
 ---
 
-My interest in electronics began at a young age, tinkering with a multimeter  
-**(The best game boy I ever had 🎮 ┐(￣ヘ￣)┌)**  
-and scavenging for electronic components to build circuits with my younger brother.
+Hi! This website is here to share. <br>
+For me, I hope it offers another way to improve and present my self. <br>
+For you, I hope my experiences serve as `fables`—with examples to imitate and often ones to avoid. <br>
+For everyone, I hope it helps increase knowledge and wisdom, or at the very least, isn’t a nuisance to anyone.<abbr title="I’m borrowing a page from Descartes' playbook here ^^">¹</abbr><br>

@@ -58,8 +58,8 @@ smartTOCHideUnfocusedChildren = false
 
 [footer]
   showMenu = false
-  showCopyright = false
-  showThemeAttribution = true
+  showCopyright = true
+  showThemeAttribution = false 
   showAppearanceSwitcher = true
   showScrollToTop = true
   # ---
@@ -99,8 +99,8 @@ smartTOCHideUnfocusedChildren = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
-  showAuthor = false
-  showAuthorBottom = false
+  showAuthor = true
+  showAuthorBottom = true 
   showHero = false
   heroStyle = "background"                # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true        # only used when heroStyle equals background or thumbAndBackground
@@ -114,30 +114,30 @@ smartTOCHideUnfocusedChildren = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = false
-  showTableOfContents = false
-  # showRelatedContent = false
-  # relatedContentLimit = 3
+  showReadingTime = true 
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
-  showWordCount = false
-  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  showWordCount = true
+  sharingLinks = [ "email", "whatsapp", "telegram"]
   showZenMode = false
 
 [list]
-  showHero = false
-  heroStyle = "basic"           # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background"           # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true        # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   showViews = false
   showLikes = false
-  showTableOfContents = false
+  showTableOfContents = true
   groupByYear = true
   showCards = true
   cardView = true
-  cardViewScreenWidth = false
+  cardViewScreenWidth = true
   constrainItemsWidth = false
 
   # #---
@@ -161,7 +161,7 @@ smartTOCHideUnfocusedChildren = false
   showBreadcrumbs = false
   showViews = false
   showLikes = false
-  showTableOfContents = false
+  showTableOfContents = true
   cardView = false
 
 [term]

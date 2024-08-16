@@ -10,8 +10,8 @@ title = "Prince's personal website"
   dateFormat = "2006-01-02"
   logo = "img/logo-prince-round-crown-gold.png"
   secondaryLogo = "img/logo prince round crown gray.png"
-  description = "My awesome website"
-  copyright = "Creative Commons Zero v1.0 Universal"
+  description = "A window into my work and writings"
+  copyright = "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
 
 # Author have been moved to datas
 [author]
