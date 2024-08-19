@@ -48,7 +48,7 @@ After acquiring the mechanical components (propellers and drone structure), we s
 - Wiring and power supply (battery and BMS)
 - Installation of motors and ESCs
 
-![Spinning propellers](/img/ezgif-2-a4b22c9f0d.gif)
+![Spinning propellers](/img/ezgif-2-a4b22c9f0d%20(Small).gif)
 
 ### First Testing Phase
 
