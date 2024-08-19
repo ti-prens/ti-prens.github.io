@@ -47,9 +47,8 @@ enableEmoji = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS", "JSON"]
-  taxonomy = ["HTML", "RSS", "JSON"]
-  taxonomyTerm = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
 
 [related]
   threshold = 0
