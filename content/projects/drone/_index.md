@@ -7,7 +7,7 @@ categories: "Learning"
 project_context: "Perso"
 draft: false
 genre: "project_perso"
-type : "page"
+layout: "page"
 ---
 
 # Zwazo
