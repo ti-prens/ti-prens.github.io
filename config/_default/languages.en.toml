@@ -10,14 +10,14 @@ title = "Prince's personal website"
   dateFormat = "2006-01-02"
   logo = "img/logo-prince-round-crown-gold.png"
   secondaryLogo = "img/logo prince round crown gray.png"
-  description = "A window into my work and writings"
+  description = "A window into my work"
   copyright = "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
 
 # Author have been moved to datas
 [author]
   name = "Prince Jacquet"
   image = "img/ti-prens.png"
-  headline = "Embedded Systems Engineer, Blogger, Consultant, Enthusiast, Learner, Christian ..."
+  headline = "Embedded Systems Engineer, Consultant, Enthusiast, Learner ..."
   bio = "The beginning of wisdom is this: Get wisdom. Though it cost all you have, get understanding."
   links = [
     { email = "mailto:prince.jacquet@kouwon.com" },
