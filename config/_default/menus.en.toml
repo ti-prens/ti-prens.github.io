@@ -82,14 +82,14 @@
 # title will be shown when you hover on this menu link
 # title = "About section"
 
-[[main]]
-weight = 2
-identifier = "blog"
-pre = ""
-post = ""
-name = "Blog"
-url = "/blog/"
-title = "Articles on Everything I Find Interesting"
+# [[main]]
+# weight = 2
+# identifier = "blog"
+# pre = ""
+# post = ""
+# name = "Blog"
+# url = "/blog/"
+# title = "Articles on Everything I Find Interesting"
 
 [[main]]
 weight = 1

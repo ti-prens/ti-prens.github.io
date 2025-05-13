@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 1
+paginate = 6
 summaryLength = 30
 
 buildDrafts = false
@@ -37,7 +37,8 @@ enableEmoji = true
   category = "categories"
   author = "authors"
   series = "series"
-
+  graph = "graph"
+  
 [sitemap]
   changefreq = 'always'
   filename = 'sitemap.xml'
