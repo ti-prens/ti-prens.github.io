@@ -100,14 +100,24 @@ name = "Projects"
 url = "/projects/"
 title = "Some Projects That I Can Share"
 
+
 [[main]]
-weight = 3
-identifier = "service"
+weight = 2
+identifier = "CV"
 pre = ""
 post = ""
-name = "Service"
-url = "/service/"
-title = "Brain Products and Consultation"
+name = "CV"
+url = "/pdf/Prince_Jacquet-CV_FR-v1.1-n_cdi.pdf"
+title = "CV"
+
+# [[main]]
+# weight = 3
+# identifier = "service"
+# pre = ""
+# post = ""
+# name = "Service"
+# url = "/service/"
+# title = "Brain Products and Consultation"
 
 
 

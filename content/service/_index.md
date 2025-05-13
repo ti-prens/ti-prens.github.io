@@ -10,6 +10,6 @@ What kind of service do I provide ?
 ... None yet. 
 
 This is just a contact form for now.
-> I have plenty of work to take care of but I am happy to hear if you have any ideas where my skill could be better used.  
+> I have plenty of work to take care of but I am happy to hear if you have any ideas where my skill could be used.  
 
 {{< formspree >}}
