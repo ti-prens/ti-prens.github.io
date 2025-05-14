@@ -67,3 +67,9 @@ bower_components
 # AWS stuff for publishing static files
 .aws-credentials.json
 .awspublish*
+content/.obsidian/app.json
+content/.obsidian/appearance.json
+content/.obsidian/core-plugins-migration.json
+content/.obsidian/core-plugins.json
+content/.obsidian/graph.json
+content/.obsidian/workspace.json

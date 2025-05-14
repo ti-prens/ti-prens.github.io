@@ -17,7 +17,7 @@ title = "Prince's personal website"
 [author]
   name = "Prince Jacquet"
   image = "img/ti-prens.png"
-  headline = "Embedded Systems Engineer, Consultant, Enthusiast, Learner ..."
+  headline = "Christian, Embedded Systems Engineer, Learner, Enthusiast, Consultant ..."
   bio = "The beginning of wisdom is this: Get wisdom. Though it cost all you have, get understanding."
   links = [
     { email = "mailto:prince.jacquet@kouwon.com" },
