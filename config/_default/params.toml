@@ -83,7 +83,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background"                # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/aboutMePic.jpg" # used in: hero, and card
+  homepageImage = "img/embeded_tim_workspace.jpg" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
   showMoreLink = false

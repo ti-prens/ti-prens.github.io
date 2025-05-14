@@ -11,12 +11,12 @@ title = "Prince's personal website"
   logo = "img/logo-prince-round-crown-gold.png"
   secondaryLogo = "img/logo prince round crown gray.png"
   description = "A window into my work"
-  copyright = "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+  # copyright = "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
 
 # Author have been moved to datas
 [author]
   name = "Prince Jacquet"
-  image = "img/prince_id.png"
+  image = "/img/prince_id.png"
   headline = "Christian, Embedded Systems Engineer, Learner, Enthusiast, Consultant ..."
   bio = "The beginning of wisdom is this: Get wisdom. Though it cost all you have, get understanding."
   links = [
