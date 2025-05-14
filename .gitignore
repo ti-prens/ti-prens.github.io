@@ -73,3 +73,4 @@ content/.obsidian/core-plugins-migration.json
 content/.obsidian/core-plugins.json
 content/.obsidian/graph.json
 content/.obsidian/workspace.json
+resources/_gen/*
