@@ -16,7 +16,7 @@ title = "Prince's personal website"
 # Author have been moved to datas
 [author]
   name = "Prince Jacquet"
-  image = "img/prince_id.jpg"
+  image = "img/prince_id.png"
   headline = "Christian, Embedded Systems Engineer, Learner, Enthusiast, Consultant ..."
   bio = "The beginning of wisdom is this: Get wisdom. Though it cost all you have, get understanding."
   links = [
