@@ -66,6 +66,6 @@ title = "Prince's personal website"
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/@ti_prens" },
     { ko-fi = "https://ko-fi.com/ti_prens"},
-    { CV = "/pdf/cv_prince_jacquet_ fr_v3.0.pdf" },
+    { CV = "/pdf/cv_prince_jacquet_fr_v3.0.pdf" },
 #     { codeberg = "https://codeberg.org/username"},
   ]
